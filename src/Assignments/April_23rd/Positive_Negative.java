@@ -8,14 +8,14 @@ public class Positive_Negative {
         System.out.println("Enter a positive integer:");
         int num= sc.nextInt();
 
-        if(num<=0){
-            System.out.println("Invalid Number");
+        if(num<0){
+            System.out.println("Number "+num+" is an negative number");
         }
-        else if(num%2==0){
-            System.out.println("Number "+num+" is an even number");
+        else if(num>0){
+            System.out.println("Number "+num+" is positive number");
         }
         else{
-            System.out.println("Number "+num+" is an odd number");
+            System.out.println("Zero Number");
         }
     }
 }
