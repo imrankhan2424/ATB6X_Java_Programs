@@ -28,7 +28,7 @@ public class Arithemetic_SwitchCase {
                 break;
             case '/' :
                 if(i2 != 0){
-                    result=i1/i2;
+                    result= (double) i1 /i2;
                     System.out.println("Result="+result);
                 } else {
                     System.out.println("Error! Dividing by zero is not allowed. Makes result Infinite.");
