@@ -15,5 +15,6 @@ public class Expression {
 
         double result=Math.cbrt(Math.pow(x,2)+Math.pow(y,2)-Math.abs(z));
         System.out.println("Result of expression is: "+result);
+        sc.close();
     }
 }

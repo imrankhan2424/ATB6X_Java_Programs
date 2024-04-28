@@ -16,5 +16,6 @@ public class Max {
         //Considering also a case in which two or more numbers have same value
         int max= a>=b ? (a>=c? a:c) : (b>=c ? b : c);
         System.out.println("Maximum between "+a+","+b+","+c+" is: "+max);
+        sc.close();
     }
 }
