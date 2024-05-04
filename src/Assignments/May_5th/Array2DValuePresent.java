@@ -32,6 +32,6 @@ public class Array2DValuePresent {
             }
         }
         if(times==0)
-            System.out.println("Element "+search_value+" NOT found in array");
+            System.out.println("Element "+search_value+" is NOT present in array");
     }
 }
