@@ -2,7 +2,7 @@ package Assignments.May_2nd;
 
 import java.util.Scanner;
 
-public class ArraydDouble {
+public class ArrayDouble {
     public static void main(String[] args) {
         //Create a Program to double an array and store it also. {1,2,3} -> {2,4,6}
         Scanner sc =new Scanner(System.in);
