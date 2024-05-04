@@ -1,8 +1,8 @@
-package Assignments.May_4th;
+package Assignments.May_4th.Arrays;
 
 import java.util.Scanner;
 
-public class Array2DValuePresent {
+public class Array2DTranspose {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number of rows in 2D array:");
@@ -11,7 +11,7 @@ public class Array2DValuePresent {
         int col=sc.nextInt();
         int[][] arr=new int[rows][col];
 
-        System.out.println("Enter Elements in 2D Array");
+        System.out.println("\nEnter Elements in 2D Array");
         for (int i=0;i<arr.length;i++){
             for(int j=0;j<arr[1].length;j++){
                 System.out.println("Enter value of "+(i+1)+"th row and "+(j+1)+"th column:");
@@ -19,19 +19,25 @@ public class Array2DValuePresent {
             }
         }
 
-        System.out.println("Enter search value:");
-        int search_value=sc.nextInt();
-        int times=0;
-
+        int[][] arr_transpose=new int[arr[1].length][arr.length];
         for (int i=0;i<arr.length;i++) {
             for (int j = 0; j < arr[1].length; j++) {
-                if(arr[i][j]==search_value){
-                    System.out.println(search_value+" - "+times+"th instance is present at row "+(i+1)+" and column "+(j+1));
-                    times++;
-                }
+                arr_transpose[j][i] = arr[i][j];
             }
         }
-        if(times==0)
-            System.out.println("Element "+search_value+" is NOT present in array");
+        System.out.println("\nOriginal Matrix:");
+        printMatrix(arr);
+
+        System.out.println("Transposed Matrix:");
+        printMatrix(arr_transpose);
+
+    }
+    public static void printMatrix(int[][] matrix){
+        for(int i=0; i<matrix.length; i++){
+            for(int j=0; j<matrix[0].length; j++){
+                System.out.print(matrix[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
 }

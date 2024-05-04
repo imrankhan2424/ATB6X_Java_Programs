@@ -1,17 +1,9 @@
-package Assignments.May_4th;
+package Assignments.May_4th.Arrays;
 
 import java.util.Scanner;
 
-public class Array2DMax {
+public class Array2DValuePresent {
     public static void main(String[] args) {
-//        Write - Java method to find the maximum value in a 2D array. - O/P - 9
-//        int[][] arr = {
-//                {1, 2, 3},
-//                {4, 5, 6},
-//                {7, 8, 9}
-//        };
-
-
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number of rows in 2D array:");
         int rows=sc.nextInt();
@@ -26,13 +18,20 @@ public class Array2DMax {
                 arr[i][j]=sc.nextInt();
             }
         }
-        int max=Integer.MIN_VALUE;
+
+        System.out.println("Enter search value:");
+        int search_value=sc.nextInt();
+        int times=0;
 
         for (int i=0;i<arr.length;i++) {
             for (int j = 0; j < arr[1].length; j++) {
-                max = Integer.max(max, arr[i][j]);
+                if(arr[i][j]==search_value){
+                    System.out.println(search_value+" - "+times+"th instance is present at row "+(i+1)+" and column "+(j+1));
+                    times++;
+                }
             }
         }
-        System.out.println("Maximum value in array is: "+max);
+        if(times==0)
+            System.out.println("Element "+search_value+" is NOT present in array");
     }
 }

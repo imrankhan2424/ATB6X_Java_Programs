@@ -1,4 +1,4 @@
-package Assignments.May_4th;
+package Assignments.May_4th.Strings;
 
 import java.util.Scanner;
 
