@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ArrayMax {
     public static void main(String[] args) {
-        //Create a Program to double an array and store it also. {1,2,3} -> {2,4,6}
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter the number of elements you want to enter in your array:");
         int length=sc.nextInt();
