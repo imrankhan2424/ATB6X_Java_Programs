@@ -31,5 +31,7 @@ public class SingleTon {
         s1.i=10;
 
         System.out.println(s2.i);
+
+        // Both s1 and s2 referring to same object
     }
 }
