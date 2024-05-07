@@ -29,6 +29,7 @@ public class Inheritance {
         obj.test(); // Method overriding - When same method is present in parent and child -> child function is called
         obj.testB();
         obj.testA();
+        System.out.println("Using super to call methods from parent using child object");
         obj.super_test();
 
         System.out.println();
