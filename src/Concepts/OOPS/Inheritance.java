@@ -1,28 +1,8 @@
-package Concepts;
+package Concepts.OOPS;
 
-class A{
-    public void test(){
-        System.out.println("Inside -- Class A");
-    }
+import Concepts.OOPS.A;
+import Concepts.OOPS.B;
 
-    public void testA(){
-        System.out.println("Inside -- Class A -- testA");
-    }
-}
-class B extends A{
-    public void test(){
-        System.out.println("Inside -- Class B");
-    }
-
-    public void testB(){
-        System.out.println("Inside -- Class B -- testB");
-    }
-
-    public void super_test(){
-        super.test(); // super keyword used to access parent method (Overridden Method)
-        super.testA(); // super keyword used to access parent method (Non-Overridden Method)
-    }
-}
 public class Inheritance {
     public static void main(String[] args) {
         B obj=new B();
@@ -31,7 +11,7 @@ public class Inheritance {
         System.out.println("Inheriting parent function from child");
         obj.testA();
         System.out.println("Using super to call methods from parent using child object");
-        obj.super_test();
+//        obj.super_test();
 
         System.out.println("\nParent class object can only use its own member functions and not child's");
         A obj_A=new A();
