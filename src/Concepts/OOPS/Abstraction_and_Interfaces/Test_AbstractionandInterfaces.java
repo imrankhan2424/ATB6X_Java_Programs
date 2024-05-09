@@ -1,7 +1,6 @@
 package Concepts.OOPS.Abstraction_and_Interfaces;
 
 import Concepts.OOPS.Abstraction.Finance;
-import Concepts.OOPS.Abstraction_and_Interfaces.AbstractionandInterfaces;
 import Concepts.OOPS.Interfaces_Multiple_Inheritance.RBI;
 import Concepts.OOPS.Interfaces_Multiple_Inheritance.USBank;
 
