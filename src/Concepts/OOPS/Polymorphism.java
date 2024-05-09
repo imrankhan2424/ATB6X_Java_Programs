@@ -13,9 +13,11 @@ public class Polymorphism {
         System.out.println("Dynamic/Run Time Polymorphism");
         //Run Time Polymorphism - Dynamic Polymorphism
         //Parent methods + Overriden Method
-        A objA=new B();
+        A objA=new B(); //Upcasting
         objA.test();
         objA.testA();
         //objA.testB(); -> cannot access pure child method
+
+        //B b=(B)new A(); // DownCasting - will throw ClassCastException
     }
 }

@@ -3,6 +3,7 @@ package Concepts.OOPS;
 import Concepts.OOPS.A;
 
 public class B extends A {
+    // extends -> Has a relationship
     public void test(){
         System.out.println("Inside -- Class B");
     }
