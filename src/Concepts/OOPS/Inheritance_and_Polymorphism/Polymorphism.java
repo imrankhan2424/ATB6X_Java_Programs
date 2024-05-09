@@ -1,4 +1,7 @@
-package Concepts.OOPS;
+package Concepts.OOPS.Inheritance_and_Polymorphism;
+
+import Concepts.OOPS.Inheritance_and_Polymorphism.A;
+import Concepts.OOPS.Inheritance_and_Polymorphism.B;
 
 public class Polymorphism {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package Concepts.OOPS;
+package Concepts.OOPS.Inheritance_and_Polymorphism;
 
-import Concepts.OOPS.A;
-import Concepts.OOPS.B;
+import Concepts.OOPS.Inheritance_and_Polymorphism.A;
+import Concepts.OOPS.Inheritance_and_Polymorphism.B;
 
 public class Inheritance {
     public static void main(String[] args) {

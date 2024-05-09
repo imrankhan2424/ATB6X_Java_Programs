@@ -1,6 +1,6 @@
-package Concepts.OOPS;
+package Concepts.OOPS.Inheritance_and_Polymorphism;
 
-import Concepts.OOPS.A;
+import Concepts.OOPS.Inheritance_and_Polymorphism.A;
 
 public class B extends A {
     // extends -> Has a relationship

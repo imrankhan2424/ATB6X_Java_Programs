@@ -1,4 +1,4 @@
-package Concepts.OOPS;
+package Concepts.OOPS.Inheritance_and_Polymorphism;
 
 public class A{
     public void test(){
