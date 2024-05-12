@@ -75,6 +75,7 @@ public class HashMapConcept {
         Map<String,String> map8=Map.of("k1","v1","k2","v2");
         System.out.println("\nUsing Non Empty Map Of");
         System.out.println(map8.get("k2"));
+        //map8.put("k1","Imran"); //UnsupportedOperationException
 
         //9. Map of Entries
         Map<String,String> map9=Map.ofEntries(
@@ -83,6 +84,7 @@ public class HashMapConcept {
         );
         System.out.println("\nUsing Map Of Enteries");
         System.out.println(map9.get("k1"));
+        //map9.put("k1","Imran"); //UnsupportedOperationException
 
         System.out.println("Guava - https://www.youtube.com/watch?v=ZWbwqXzZDR0&list=PLFGoYjJG_fqqyIj2ht0aHMx_HnGX3ZFEx&index=40 ");
     }
