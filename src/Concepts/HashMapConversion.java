@@ -14,6 +14,18 @@ public class HashMapConversion {
             System.out.println(k.getKey()+":"+k.getValue());
         }
 
+        System.out.println("---------------");
+
+        //Linked Hash Map for orderly storing
+        LinkedHashMap<String,Integer> k=new LinkedHashMap<>();
+        k.put("Imran",20);
+        k.put("Khan",40);
+
+        Iterator i1=k.entrySet().iterator();
+        while (i1.hasNext()){
+            Map.Entry k1=(Map.Entry)i1.next();
+            System.out.println(k1.getKey()+":"+k1.getValue());
+        }
 
         System.out.println("---------------");
 
