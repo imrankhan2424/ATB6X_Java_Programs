@@ -1,6 +1,7 @@
 package Concepts.ListConcept;
 
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LInkedListMethods {
@@ -32,5 +33,10 @@ public class LInkedListMethods {
         System.out.println("------------");
         Collections.sort(s);
         s.forEach(System.out::println);
+
+        System.out.println("----------");
+        Iterator i=s.descendingIterator();
+        while (i.hasNext())
+            System.out.println(i.next());
     }
 }
