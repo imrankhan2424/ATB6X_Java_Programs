@@ -28,6 +28,17 @@ public class EnumSetConcept {
         lang1.addAll(enumSet1);
         System.out.println(lang1);
 
+        System.out.println("-------------");
+        lang1.remove(Food.Apple);
+        System.out.println(lang1);
+        System.out.println("---------");
+        lang1.removeAll(lang1);
+        System.out.println(lang1);
+
+        enumSet2.clear();
+        System.out.println(enumSet2);
+
+
         //Iteration
         Iterator<Food> i= enumSet1.iterator();
         while(i.hasNext()){
