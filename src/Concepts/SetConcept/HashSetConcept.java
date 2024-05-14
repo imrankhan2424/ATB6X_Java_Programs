@@ -8,6 +8,7 @@ public class HashSetConcept {
         HashSet<Integer> hash = new HashSet<>();
         hash.add(10);hash.add(20);hash.add(30);
         hash.add(10);hash.add(20);hash.add(30);
+        //System.out.println(hash.add(30)); hash.add() returns boolean
         System.out.println(hash); //Automatically removes duplicate
 
         System.out.println("----------------");
