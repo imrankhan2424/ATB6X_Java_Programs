@@ -1,6 +1,6 @@
-package JavaPrograms;
+package JavaPrograms.Patterns;
 
-public class Patterns {
+public class Patterns1 {
     public static void main(String[] args) {
 //        pattern1(6);
 //        pattern2(7);
