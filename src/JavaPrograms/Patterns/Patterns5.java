@@ -1,8 +1,4 @@
 package JavaPrograms.Patterns;
-
-import java.util.Arrays;
-import java.util.Optional;
-
 public class Patterns5 {
     public static void main(String[] args) {
         pattern51(5);
